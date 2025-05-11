@@ -5,26 +5,6 @@ This repository is a basic template to kickstart any Node.js project using **Typ
 
 ---
 
-## 📁 Project Structure
-
-```
-
-project-root/
-│
-├── src/               # Source files (TypeScript)
-│   └── index.ts
-│
-├── dist/              # Compiled JavaScript output
-│   └── index.js
-│
-├── package.json       # Project metadata and scripts
-├── tsconfig.json      # TypeScript compiler configuration
-└── README.md
-
-````
-
----
-
 ## 📦 Installation
 
 Install dependencies:
