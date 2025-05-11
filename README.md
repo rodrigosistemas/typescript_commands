@@ -3,8 +3,6 @@
 
 This repository is a basic template to kickstart any Node.js project using **TypeScript**. It includes essential configuration and useful commands for development.
 
----
-
 ## 📦 Installation
 
 Install dependencies:
