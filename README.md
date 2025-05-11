@@ -42,7 +42,6 @@ json
 
 ## ✅ Example Workflow
 
-bash
 ### Initialize project
 npm init -y
 npm install --save-dev typescript
