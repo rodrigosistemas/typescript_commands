@@ -7,9 +7,8 @@ This repository is a basic template to kickstart any Node.js project using **Typ
 
 Install dependencies:
 
-```bash
 npm install
-````
+
 
 ---
 
