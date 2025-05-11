@@ -1,41 +1,27 @@
-````markdown
 # 🚀 TypeScript Starter Project
 
 This repository is a basic template to kickstart any Node.js project using **TypeScript**. It includes essential configuration and useful commands for development.
 
-````
+## 📦 Installation
 
-And add the dev-tools for watch & reload:
+Install dependencies:
 
-```bash
-npm install --save-dev typescript nodemon concurrently ts-node-dev
-```
+npm install
+
 
 ---
 
 ## ⚙️ Scripts
 
-Add these scripts to your `package.json`:
+Add these scripts to your package.json:
 
-```json
+json
 "scripts": {
   "build": "tsc",
-  "watch": "tsc --watch --preserveWatchOutput",
-  "start": "node dist/index.js",
-
-  // Watch & restart the compiled JS
-  "start:watch": "nodemon --watch dist --exec \"node dist/index.js\"",
-
-  // Dev mode: compila en watch y reinicia el servidor automáticamente
-  "dev": "concurrently \"npm run watch\" \"npm run start:watch\"",
-
-  // Alternativa sin folder dist: compila al vuelo y reinicia
-  "dev:ts": "ts-node-dev --respawn --transpile-only src/index.ts",
-
-  // Solo chequeo de tipos (útil en CI)
-  "type-check": "tsc --noEmit"
+  "watch": "tsc --watch",
+  "start": "node dist/index.js"
 }
-```
+
 
 ---
 
@@ -56,22 +42,20 @@ Add these scripts to your `package.json`:
 
 ## ✅ Example Workflow
 
-```bash
-# 1. Instala dependencias:
-npm install
-npm install --save-dev typescript nodemon concurrently ts-node-dev
+bash
+# Initialize project
+npm init -y
+npm install --save-dev typescript
 
-# 2. Inicializa TSConfig:
+# Create TypeScript config
 npx tsc --init
 
-# 3. Crea carpetas:
+# Create source and dist folders
 mkdir src dist
 touch src/index.ts
 
-# 4. Desarrollo en caliente:
-npm run dev
-
-# 5. Para producción:
+# Build the project
 npm run build
+
+# Run the compiled app
 npm start
-```
