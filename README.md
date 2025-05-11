@@ -43,19 +43,19 @@ json
 ## ✅ Example Workflow
 
 bash
-# Initialize project
+### Initialize project
 npm init -y
 npm install --save-dev typescript
 
-# Create TypeScript config
+### Create TypeScript config
 npx tsc --init
 
-# Create source and dist folders
+### Create source and dist folders
 mkdir src dist
 touch src/index.ts
 
-# Build the project
+### Build the project
 npm run build
 
-# Run the compiled app
+### Run the compiled app
 npm start
