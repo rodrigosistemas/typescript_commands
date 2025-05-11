@@ -1,5 +1,3 @@
-Aquí tienes el README actualizado con todos los comandos imprescindibles para trabajar en modo observador (watch) en un proyecto Node + TypeScript, incluyendo opciones para reinicio automático del servidor:
-
 ````markdown
 # 🚀 TypeScript Starter Project
 
